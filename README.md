@@ -1,2 +1,2 @@
 # mastering-eth
-code exercise from the boo Mastering [Ethereum] (https://github.com/ethereumbook/ethereumbook)
+code exercise from the book [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook)
