@@ -18,11 +18,16 @@ contract Faucet{
         msg.sender.transfer(withdraw_amount);
     }
 
-    function destroy() public{
-        require(msg.sender == owner);
+    function destroy() public onlyOwner{
+        
         selfdestruct(owner);
     }
 
+    
+    modifier onlyOwner {
+    require(msg.sender == owner);
+    _;
+    }
    
 }
 
